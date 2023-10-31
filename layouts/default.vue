@@ -1,11 +1,11 @@
 <script setup lang="ts">
 const settings = useSettings();
 const { asImageSrc } = usePrismic();
-useSeoMeta({
-  title: settings.value?.data.site_title,
-  description: settings.value?.data.meta_description,
-  ogImage: asImageSrc(settings.value?.data.og_image),
-});
+// useSeoMeta({
+//   title: settings.value?.data.site_title,
+//   description: settings.value?.data.meta_description,
+//   ogImage: asImageSrc(settings.value?.data.og_image),
+// });
 </script>
 
 <template>
